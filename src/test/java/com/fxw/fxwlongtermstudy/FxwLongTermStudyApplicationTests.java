@@ -7,6 +7,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class FxwLongTermStudyApplicationTests {
 
     @Test
+    void test(){
+        System.out.println("test");
+    }
+
+    @Test
     void contextLoads() {
     }
 
