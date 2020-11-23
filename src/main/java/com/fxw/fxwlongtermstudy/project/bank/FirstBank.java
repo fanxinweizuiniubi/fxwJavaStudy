@@ -1,4 +1,4 @@
-package com.fxw.fxwlongtermstudy.bank;
+package com.fxw.fxwlongtermstudy.project.bank;
 
 /**
  * @author tony fan

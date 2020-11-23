@@ -1,4 +1,4 @@
-package com.fxw.fxwlongtermstudy.singleton;
+package com.fxw.fxwlongtermstudy.designModel.singleton;
 
 /**
  * 饿汉式单例
