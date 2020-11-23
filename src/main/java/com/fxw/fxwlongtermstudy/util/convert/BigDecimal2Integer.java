@@ -1,4 +1,4 @@
-package com.fxw.fxwlongtermstudy.convert;
+package com.fxw.fxwlongtermstudy.util.convert;
 
 import java.math.BigDecimal;
 

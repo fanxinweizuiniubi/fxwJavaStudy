@@ -1,6 +1,7 @@
-package com.fxw.fxwlongtermstudy.check;
+package com.fxw.fxwlongtermstudy.util.check;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -9,8 +10,8 @@ import java.util.List;
 public class CheckBoGuanJia {
 
     public static void main(String[] args) {
-        List<Integer> integers = checkBoGuanJia(9873);
-        System.out.println();
+        List<Integer> integers = checkBoGuanJia(1);
+        System.out.println(Arrays.toString(integers.toArray()));
     }
 
     private static List<Integer> checkBoGuanJia(Integer amount) {
