@@ -38,3 +38,25 @@ set name:id001:name zhangsan
 set name:id001:age 18 # 巧妙设计key
 ```
 
+### list
+
+操作list的命令都是以"l"开头
+
+~~~bash
+lpush list one # 向list中添加，放到头部
+lpop list # 将头部的第一个值移除
+lrange list 0 -1 # 获取list中全部的值
+rpush list right # 向list中添加，放到尾部
+rpop list # 将尾部的第一个值移除
+lindex list 1 # 获取下标为1的值
+llen list # 获取list长度
+lrem list 2 three # 移除2个three
+ltrim list 1 2 # 只保留下标1到2之间的值
+rpoplpush source target # 将source中的尾部放到target中的头部
+lset list 0 item # 将list中的第0个元素设置为item
+exist list # 判断list列表是否存在
+linsert list before|after pivotStr value # 在指定元素前或后插入值
+~~~
+
+
+
