@@ -1,6 +1,9 @@
 package com.fxw.fxwlongtermstudy.util.check;
 
-public class IfTest {
+/**
+ * @author fanxinwei
+ */
+public class TestIf {
 
     public static void main(String[] args) {
         if(2 > 1){
