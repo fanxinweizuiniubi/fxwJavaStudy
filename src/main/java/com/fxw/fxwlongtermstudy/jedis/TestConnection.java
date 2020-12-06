@@ -1,10 +1,13 @@
+/*
 package com.fxw.fxwlongtermstudy.jedis;
 
 import redis.clients.jedis.Jedis;
 
+*/
 /**
  * @author tony fan
- */
+ *//*
+
 public class TestConnection {
 
     public static void main(String[] args) {
@@ -13,3 +16,4 @@ public class TestConnection {
     }
 
 }
+*/

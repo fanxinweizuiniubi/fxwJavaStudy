@@ -1,12 +1,15 @@
+/*
 package com.fxw.fxwlongtermstudy.jedis;
 
 import com.alibaba.fastjson.JSONObject;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Transaction;
 
+*/
 /**
  * @author tony fan
- */
+ *//*
+
 public class JedisTX {
 
     public static void main(String[] args) {
@@ -38,3 +41,4 @@ public class JedisTX {
     }
 
 }
+*/
