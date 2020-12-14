@@ -1,3 +1,4 @@
+/*
 package com.fxw.fxwlongtermstudy.redis;
 
 import com.fxw.fxwlongtermstudy.FxwLongTermStudyApplication;
@@ -26,3 +27,4 @@ public class TestRedisTemplate {
     }
 
 }
+*/
