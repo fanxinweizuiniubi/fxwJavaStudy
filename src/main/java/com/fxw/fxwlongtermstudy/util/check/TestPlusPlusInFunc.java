@@ -3,7 +3,7 @@ package com.fxw.fxwlongtermstudy.util.check;
 /**
  * @author fanxinwei
  */
-public class TestAAI {
+public class TestPlusPlusInFunc {
 
     public static void main(String[] args) {
         int a = 0, b = 0;

@@ -1,6 +1,12 @@
 package com.fxw.fxwlongtermstudy.util.check;
 
-public class TestJson {
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+import com.fxw.fxwlongtermstudy.model.JkjAwardConfig;
+
+import java.util.List;
+
+public class TestJsonArray {
 
     public static void main(String[] args) {
         String json = "[\n" +
@@ -20,6 +26,8 @@ public class TestJson {
                 "        \"bottom\": \"第五天底部\"\n" +
                 "    }\n" +
                 "]";
+        JSONArray jsonArray = JSONObject.parseArray(json);
+        List<JkjAwardConfig> jkjAwardConfigList = jsonArray.toJavaList(JkjAwardConfig.class);
     }
 
 }
